@@ -39,8 +39,7 @@ begin
     done;
 
     Graphics.synchronize ();
-    ignore (Graphics.wait_next_event []);
-    ()
+    ignore (Graphics.wait_next_event [])
 end;;
 
 let (auto_graph_dim : float -> ((float * float) * (float * float))) = 
